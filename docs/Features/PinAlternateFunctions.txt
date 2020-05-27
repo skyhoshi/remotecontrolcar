@@ -1,0 +1,42 @@
+Pin PinName Pull ALT0 ALT1 ALT2 ALT3 ALT4 ALT5
+0 GPIO0 High SDA0 SA5 <reserved>
+1 GPIO1 High SCL0 SA4 <reserved>
+2 GPIO2 High SDA1 SA3 <reserved>
+3 GPIO3 High SCL1 SA2 <reserved>
+4 GPIO4 High GPCLK0 SA1 <reserved>   ARM_TDI
+5 GPIO5 High GPCLK1 SA0 <reserved>   ARM_TDO
+6 GPIO6 High GPCLK2 SOE_N/SE <reserved>   ARM_RTCK
+7 GPIO7 High SPI0_CE1_N SWE_N/SRW_N <reserved>
+8 GPIO8 High SPI0_CE0_N SD0 <reserved>
+9 GPIO9 Low SPI0_MISO SD1 <reserved>
+10 GPIO10 Low SPI0_MOSI SD2 <reserved>
+11 GPIO11 Low SPI0_SCLK SD3 <reserved>
+12 GPIO12 Low PWM0 SD4 <reserved>   ARM_TMS
+13 GPIO13 Low PWM1 SD5 <reserved>   ARM_TCK
+14 GPIO14 Low TXD0 SD6 <reserved>   TXD1
+15 GPIO15 Low RXD0 SD7 <reserved>   RXD1
+16 GPIO16 Low <reserved> SD8 <reserved> CTS0 SPI1_CE2_N CTS1
+17 GPIO17 Low <reserved> SD9 <reserved> RTS0 SPI1_CE1_N RTS1
+18 GPIO18 Low PCM_CLK SD10 <reserved> BSCSL-SDA/MOSI SPI1_CE0_N PWM0
+19 GPIO19 Low PCM_FS SD11 <reserved> BSCSL-SCL/SCLK SPI1_MISO PWM1
+20 GPIO20 Low PCM_DIN SD12 <reserved> BSCSL/MISO SPI1_MOSI GPCLK0
+21 GPIO21 Low PCM_DOUT SD13 <reserved> BSCSL/CE_N SPI1_SCLK GPCLK1
+22 GPIO22 Low <reserved> SD14 <reserved> SD1_CLK ARM_TRST
+23 GPIO23 Low <reserved> SD15 <reserved> SD1_CMD ARM_RTCK
+24 GPIO24 Low <reserved> SD16 <reserved> SD1_DAT0 ARM_TDO
+25 GPIO25 Low <reserved> SD17 <reserved> SD1_DAT1 ARM_TCK
+26 GPIO26 Low <reserved> <reserved> <reserved> SD1_DAT2 ARM_TDI
+27 GPIO27 Low <reserved> <reserved> <reserved> SD1_DAT3 ARM_TMS
+28 GPIO28 - SDA0 SA5 PCM_CLK <reserved>
+29 GPIO29 - SCL0 SA4 PCM_FS <reserved>
+30 GPIO30 Low <reserved> SA3 PCM_DIN CTS0  CTS1
+31 GPIO31 Low <reserved> SA2 PCM_DOUT RTS0  RTS1
+32 GPIO32 Low GPCLK0 SA1 <reserved> TXD0  TXD1
+33 GPIO33 Low <reserved> SA0 <reserved> RXD0  RXD1
+34 GPIO34 High GPCLK0 SOE_N/SE <reserved> <reserved>
+35 GPIO35 High SPI0_CE1_N SWE_N/SRW_N <reserved>
+36 GPIO36 High SPI0_CE0_N SD0 TXD0 <reserved>
+37 GPIO37 Low SPI0_MISO SD1 RXD0 <reserved>
+38 GPIO38 Low SPI0_MOSI SD2 RTS0 <reserved>
+39 GPIO39 Low SPI0_SCLK SD3 CTS0 <reserved>
+40 GPIO40 Low PWM0 SD4 <reserved> SPI2_MISO TXD1
